@@ -1,3 +1,6 @@
+body{
+    font-family: "Urbanist", sans-serif;
+}
 #buscadorPrincipal{
     background-image: url('../img/fondo.jpeg');
     background-size: cover;
@@ -23,3 +26,20 @@
     opacity: 0;
     animation: fadeIn 2s forwards;
 }
+/* puede ser */
+        .custom-file-input::-webkit-file-upload-button {
+            visibility: hidden;
+        }
+        .custom-file-input::before {
+            content: 'Subir archivo';
+            display: inline-block;
+            background: #ffffff;
+            outline: none;
+            white-space: nowrap;
+            -webkit-user-select: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .custom-file-input:hover::before {
+            color: #555;
+        }
